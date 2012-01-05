@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="/static/nis.css" />
+<title>Article Title</title>
+
+</head>
+
+<body>
+
+<div id="sitetitle">
+<h1> Nine I Studios </h1>
+</div>
+
+{% if top_article != nil %}
+<div id="headline_top">
+	<h1><a href="articles/{{ top_article.0.id }}/" > {{ top_article.0.title }} </a></h1>
+	<p> {{ top_article.0.byline }} </p>
+</div>
+{% else %}
+	<h1> Empty. </h1>
+{% endif %}
+
+{% if major_articles %}
+<div id="headline_major">
+		{% for article in major_articles %}
+			<h2><a href="articles/{{ article.id }}" > {{ article.title }} </a> - {{ article.byline }}</h2>
+		{% endfor %}
+</div>
+{% endif %}
+
+{% if minor_articles %}
+<div id="headline_minor">
+<ul>
+{% for article in minor_articles %}
+	<h3><a href="articles/{{ article.id }}" > {{ article.title }} </a></h3>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+</body>

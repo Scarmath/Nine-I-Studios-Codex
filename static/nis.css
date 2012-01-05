@@ -1,0 +1,93 @@
+/* Nine I Studios core CSS */
+
+/* scheme 1 */
+/*
+
+#1894B8
+#92B7D6
+#FFD769
+
+*/
+
+
+/* scheme 2 */
+
+/*
+
+#72A1B4
+#B2CEDC
+#FFF799
+
+*/
+
+#sitetitle > h1 {
+	margin: 0px 50px;
+	font-size:32pt;
+}
+
+body {
+	color:#1894B8;
+	background:#92B7D6;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color:#72A1B4;
+
+}
+
+a:visited {
+	color:#6291A4;
+}
+
+#headline_top {
+	background:#FFF5DF;
+	border-style:solid;
+	border-color:#FFD769;
+	margin:10px 50px 10px 50px;
+	padding:0px 15px 0px 15px;
+}
+
+#headline_top > h1 {
+
+}
+
+#headline_major {
+	background:#FFF5DF;
+	border-style:solid;
+	border-color:#FFD769;
+	margin:10px 50px;
+	padding:0px 15px;
+}
+
+#headline_major > h2 {
+	
+}
+
+#headline_minor {
+	background:#FFF5DF;
+	border-style:solid;
+	border-color:#FFD769;
+	margin:10px 50px;
+	padding:0px 15px;
+}
+
+#essay {
+	background:#FFF5DF;
+	border-style:solid;
+	border-color:#FFD769;
+	margin:10px 50px;
+	padding:0px 15px;
+}
+
+#essay > p {
+	padding: 25px;
+}
+
+#footer {
+	margin:10px 50px;
+	padding:0px 20px;
+}

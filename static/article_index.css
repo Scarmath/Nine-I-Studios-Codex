@@ -1,0 +1,59 @@
+/* 
+For Article index in c:/webstuff
+Colors:
+
+#7d98bb - blue
+#000000 - black
+#d3d3d3 - grey
+
+#0071bc - dark blue
+
+*/
+
+h1 {
+	margin-left:50px;
+	padding-left:75px;
+	margin-right:100px;
+	font-size:32pt;
+	background-color:#d3d3d3;
+}
+
+body {
+	background-color:#7d98bb;
+}
+
+
+.article_list {
+	color:#000000;
+	background-color:#d3d3d3;
+	margin:10px 100px 10px 50px;
+	padding:20px;
+	font-family:sans-serif;
+}
+
+
+
+#essay {
+	color:#000000;
+	background-color:#d3d3d3;
+	margin:10px 100px 10px 50px;
+	padding:20px;
+	font-family:sans-serif;
+}
+
+#essay > h2 {
+	margin-left: 55px;
+	margin-bottom: 5px;
+}
+
+#essay > h3 {
+	margin-left: 55px;
+	margin-top: 5px;
+	font-style:italic;
+	font-weight:normal;
+}
+
+#essay > p {
+	margin: 15px 75px 15px 30px;
+	text-indent: 25px;
+}
